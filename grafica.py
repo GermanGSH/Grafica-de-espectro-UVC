@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-nm, intensidad = np.loadtxt('250 nm.txt', skiprows=1, usecols=[0,1], unpack=True)
+nm, intensidad = np.loadtxt('nm_robot_uvc.txt', skiprows=1, usecols=[0,1], unpack=True)
 
 print(nm,intensidad)
 
